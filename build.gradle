@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'me.luligabi'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.twitter4j:twitter4j-core:4.0.7'
+}
